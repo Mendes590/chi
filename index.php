@@ -124,34 +124,52 @@
   <div class="contratoCard">
     <div class="contratoTextos">
       <div class="contatroTitulo" onclick="copyContract()">Contract</div>
-      <div class="contrato">3Q4MDXVqPoWp4ky8GqfYpjZncybPuRWmpw3imdEs7VfT</div>
+      <div class="contrato" id="contractAddress" onclick="copyContract()">3Q4MDXVqPoWp4ky8GqfYpjZncybPuRWmpw3imdEs7VfT</div>
     </div>
     <div class="gatoContrato">
       <img src="./assets/img/astronauta.png" alt="">
     </div>
   </div>
 </div>
-        </div>
-    </div>
+<div id="toastCopied" class="toast-copied">
+    <span class="toast-copied__icon">✔️</span>
+    <span>Copiado!</span>
 </div>
 <script>
     function copyContract() {
-        const text = document.getElementById("contractAddress").innerText;
+    const contract = document.getElementById("contractAddress");
+    const text = contract.innerText.trim();
 
+    // Tenta copiar
+    if (navigator.clipboard) {
         navigator.clipboard.writeText(text).then(() => {
-            const titulo = document.querySelector(".contatroTitulo");
-            titulo.innerText = "Copied!";
-            titulo.style.backgroundColor = "#00e676"; // verde de confirmação
-
-            setTimeout(() => {
-                titulo.innerText = "Contract";
-                titulo.style.backgroundColor = "#ae84e9"; // cor original
-            }, 2000);
-        }).catch(err => {
-            console.error("Failed to copy contract: ", err);
-            alert("Failed to copy!");
+            showToastCopied();
+        }).catch(() => {
+            alert("Falha ao copiar!");
         });
+    } else {
+        // fallback para browsers antigos
+        let range = document.createRange();
+        range.selectNode(contract);
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+        try {
+            document.execCommand('copy');
+            showToastCopied();
+        } catch (err) {
+            alert("Falha ao copiar!");
+        }
+        window.getSelection().removeAllRanges();
     }
+}
+
+function showToastCopied() {
+    const toast = document.getElementById("toastCopied");
+    toast.classList.add("show");
+    setTimeout(() => {
+        toast.classList.remove("show");
+    }, 1200);
+}
 </script>
     </section>
  
