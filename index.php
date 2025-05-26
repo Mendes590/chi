@@ -140,7 +140,7 @@
     const contract = document.getElementById("contractAddress");
     const text = contract.innerText.trim();
 
-    // Tenta copiar
+    // Tenta copiar teste
     if (navigator.clipboard) {
         navigator.clipboard.writeText(text).then(() => {
             showToastCopied();
