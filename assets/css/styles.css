@@ -141,12 +141,7 @@ h1 span {
     height: 46px;
 }
 
-.about {
-    height: 2070px;
-    background-image: url(../img/monn.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-}
+
 
 .astronauta {
     position: absolute;
@@ -788,12 +783,13 @@ footer {
 }
 
 .about {
-    height: 500px;
+    min-height: 100px; /* Ou ajuste conforme o necessário */
+    height: auto;
     background-image: url(../img/monn.png);
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 1420px;
-    margin-top: 380px;
+    background-size: contain;
+    margin-top: 30px; /* Ou ajuste conforme necessário */
 }
 
 /* Click-To-Earn Section Styles */
