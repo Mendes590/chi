@@ -99,7 +99,7 @@
                         Welcome to the<br />
                         <span>CAT CHI</span>
                     </h1>
-                    <p> 100,000,000 CAT CHI out to rule the world </p>
+                    <p> 10,000,000,000 CAT CHI out to rule the world </p>
                 </div>
                 <div class="col-md-12 mt-5">
                     <img src="./assets/img/havefun.png" class="img-fluid havefun " alt="" srcset="">
@@ -118,22 +118,26 @@
 
 
     <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 text-center">
-                    <div class="divContract">
-                        <div class="contatroTitulo" onclick="copyContract()">
-                            Contract
-                        </div>
-                        <div class="contrato">
-                            3Q4MDXVqPoWp4ky8GqfYpjZncybPuRWmpw3imdEs7VfT
-                        </div>
-
-                    </div>
-                </div>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 text-center">
+    <div class="divContract">
+        <div class="contatroTitulo" onclick="copyContract()">
+            Contract
+        </div>
+        <div class="contrato">
+            3Q4MDXVqPoWp4ky8GqfYpjZncybPuRWmpw3imdEs7VfT
+        </div>
+    </div>
+    <div class="gatoContrato">
+        <img src="./assets/img/astronauta.png" alt="">
+    </div>
+</div>
             </div>
         </div>
+    </div>
+</div>
         <script>
             function copyContract() {
                 const contract = "3Q4MDXVqPoWp4ky8GqfYpjZncybPuRWmpw3imdEs7VfT";
@@ -449,7 +453,7 @@
 
 
 
-    <section class="mt-5">
+    <section class="mt-5" id="roadmap">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -486,99 +490,58 @@
                     </div>
                 </div>
                 <div class="col-md-8 margimTop">
-
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="heading11">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
-                                    Phase 1:
-                                </button>
-                            </h2>
-                            <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
-                                data-bs-parent="#accordionExample" style="">
-                                <div class="accordion-body">
-
-                                    <p>
-                                        Present the project idea
-                                    </p>
-                                    <p>Core team formation</p>
-                                    <p>Whitepaper write</p>
-                                    <p>Develop the website</p>
-                                    <p>SOL contract deploy</p>
-                                    <p>First partnerships</p>
-                                    <p>Social media creation</p>
-                                    <p>Community start</p>
-                                    <p>Community instructions & Educate</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingPhase2">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapsePhase2" aria-expanded="false"
-                                    aria-controls="collapsePhase2">
-
-                                    Phase 2:
-                                </button>
-                            </h2>
-                            <div id="collapsePhase2" class="accordion-collapse collapse" aria-labelledby="headingPhase2"
-                                data-bs-parent="#accordionExample" style="">
-                                <div class="accordion-body">
-                                    <p>
-                                        Venture Capital entry
-                                    </p>
-
-                                    <p>Start soft marketing</p>
-                                    <p>Prepare Trending Mainstream</p>
-                                    <p>Start huge marketing</p>
-                                    <p>PancakeSwap listing</p>
-                                    <p>Certik Audit in progress</p>
-                                    <p>CG track</p>
-                                    <p>CMC track</p>
-                                    <p>DApp laun</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingPhase3">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapsePhase3" aria-expanded="false"
-                                    aria-controls="collapsePhase3">
-                                    Phase 3:
-                                </button>
-                            </h2>
-                            <div id="collapsePhase3" class="accordion-collapse collapse" aria-labelledby="headingPhase3"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>
-                                        Click-to-Earn Game launch
-                                    </p>
-
-                                    <p>Dapp Radar listing</p>
-                                    <p>New game Update: PetShop</p>
-                                    <p>New game Update: Pet Items</p>
-                                    <p>New game Update: Dog Racing</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
+    <div class="roadmap-section">
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">🐾</div>
+                <div class="timeline-content">
+                    <h3>Phase 1</h3>
+                    <ul>
+                        <li>Present the project idea</li>
+                        <li>Core team formation</li>
+                        <li>Whitepaper write</li>
+                        <li>Develop the website</li>
+                        <li>SOL contract deploy</li>
+                        <li>First partnerships</li>
+                        <li>Social media creation</li>
+                        <li>Community start</li>
+                        <li>Community instructions & Educate</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">🌟</div>
+                <div class="timeline-content">
+                    <h3>Phase 2</h3>
+                    <ul>
+                        <li>Venture Capital entry</li>
+                        <li>Start soft marketing</li>
+                        <li>Prepare Trending Mainstream</li>
+                        <li>Start huge marketing</li>
+                        <li>PancakeSwap listing</li>
+                        <li>Certik Audit in progress</li>
+                        <li>CG track</li>
+                        <li>CMC track</li>
+                        <li>DApp launch</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">🚀</div>
+                <div class="timeline-content">
+                    <h3>Phase 3</h3>
+                    <ul>
+                        <li>Click-to-Earn Game launch</li>
+                        <li>Dapp Radar listing</li>
+                        <li>New game Update: PetShop</li>
+                        <li>New game Update: Pet Items</li>
+                        <li>New game Update: Dog Racing</li>
+                    </ul>
                 </div>
             </div>
         </div>
+    </div>
+</div>
     </section>
 
 
