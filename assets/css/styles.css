@@ -1134,13 +1134,13 @@ footer {
     }
     .gatoContrato {
         margin-bottom: -35px !important;
-    margin-top: 35px !important;
+        margin-top: 35px !important;
         width: 110px !important;
         margin: -40px auto 0 auto !important;
     }
     .gatoContrato img {
         margin-bottom: -35px !important;
-    margin-top: 35px !important;
+        margin-top: 35px !important;
         width: 100px !important;
     }
     /* Section "about" quase oculta */
@@ -1273,6 +1273,61 @@ footer {
         padding: 3px 8px !important;
         border-radius: 16px !important;
         box-shadow: none !important;
+    }
+
+    /* --- ROADMAP AJUSTADO MOBILE --- */
+    .roadmap-zigzag {
+        align-items: stretch !important;
+        margin: 16px 0 8px 0 !important;
+    }
+    .roadmap-row {
+        display: block !important;
+        min-height: 0 !important;
+        margin-bottom: 28px !important;
+        max-width: 100vw !important;
+        padding: 0 !important;
+    }
+    .roadmap-card {
+        max-width: 95vw !important;
+        min-width: 0 !important;
+        margin: 0 auto 10px auto !important;
+        padding: 12px 13px 10px 13px !important;
+        border-radius: 14px !important;
+        box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+        font-size: 15px !important;
+        text-align: left;
+    }
+    .roadmap-card h3 {
+        font-size: 18px !important;
+        margin-bottom: 6px !important;
+        text-align: left !important;
+    }
+    .roadmap-card ul {
+        padding-left: 15px !important;
+    }
+    .roadmap-dot {
+        margin: 8px auto 0 auto !important;
+        width: 22px !important;
+        height: 22px !important;
+        font-size: 1.1rem !important;
+        border-width: 2px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .roadmap-center {
+        width: 100%;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center !important;
+        margin: 0 auto 0 auto !important;
+        padding: 0 !important;
+    }
+    .roadmap-line {
+        margin: 0 auto !important;
+        min-height: 30px !important;
+        width: 3px !important;
     }
 }
 .roadmap-trail {
@@ -1540,7 +1595,7 @@ footer {
       padding: 10px 10px 8px 8px;
     }
     .roadmap-center {
-      width: 18px;
+        display: none !important;
     }
     .roadmap-dot {
       width: 22px;
