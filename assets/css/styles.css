@@ -783,15 +783,14 @@ footer {
 }
 
 .about {
-    min-height: 100px; /* Ou ajuste conforme o necessário */
+    min-height: 320px;  /* Aumente esse valor até caber a imagem toda! */
     height: auto;
     background-image: url(../img/monn.png);
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center 20px; /* Pode testar outros valores tipo 40px, 60px, etc */
     background-size: contain;
-    margin-top: 30px; /* Ou ajuste conforme necessário */
+    margin-top: 30px;
 }
-
 /* Click-To-Earn Section Styles */
 .click-to-earn {
     padding: 80px 0;
@@ -1061,30 +1060,215 @@ footer {
 }
 
 @media (max-width: 700px) {
+    body {
+        font-size: 15px !important;
+        line-height: 1.4 !important;
+    }
+    h1, h2, h3 {
+        font-size: 26px !important;
+        line-height: 1.1 !important;
+        margin-bottom: 10px !important;
+    }
+    h1 span {
+        font-size: 32px !important;
+        margin-top: 0 !important;
+    }
+    .navbar-brand img {
+        width: 68px !important;
+        margin-bottom: 0 !important;
+    }
+    .navv {
+        padding: 6px 10px !important;
+        margin-top: 10px !important;
+        border-radius: 24px !important;
+        box-shadow: none !important;
+    }
+    .navbar-nav .nav-link {
+        font-size: 13px !important;
+        padding: 6px 10px !important;
+    }
+    .banner {
+        margin-top: 60px !important;
+        padding: 0 2vw !important;
+    }
+    .banner .video {
+        margin-bottom: 10px !important;
+        border-radius: 12px !important;
+        max-width: 95vw !important;
+        min-width: 0 !important;
+        box-shadow: none !important;
+    }
+    .bannerPrincipal {
+        padding: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .bannerPrincipal h1, .bannerPrincipal p {
+        font-size: 19px !important;
+        font-weight: 600 !important;
+    }
+    .havefun {
+        max-width: 120px !important;
+        margin: 10px auto 10px auto !important;
+    }
+    .divContract {
+        padding: 10px !important;
+        gap: 6px !important;
+        margin-top: 12px !important;
+        border-radius: 10px !important;
+        background: #bb47c7 !important;
+    }
+    .contatroTitulo {
+        padding: 10px !important;
+        font-size: 13px !important;
+        border-radius: 8px !important;
+    }
+    .contrato {
+        padding: 10px !important;
+        font-size: 13px !important;
+        border-radius: 8px !important;
+        background: #ea5bbf !important;
+    }
+    .gatoContrato {
+        margin-bottom: -35px !important;
+    margin-top: 35px !important;
+        width: 110px !important;
+        margin: -40px auto 0 auto !important;
+    }
+    .gatoContrato img {
+        margin-bottom: -35px !important;
+    margin-top: 35px !important;
+        width: 100px !important;
+    }
+    /* Section "about" quase oculta */
+    .about {
+        min-height: 220px !important; /* Ou um valor que funcione para o mobile, tipo 240px */
+        margin-top: 0 !important;
+        background-size: contain !important;
+        background-position: center 30px !important;
+    }
+    .marginTop, .mt-5, .mt-6 {
+        margin-top: 32px !important;
+    }
+    .Tokenomics .box {
+        height: auto !important;
+        min-height: 80px !important;
+        padding: 8px !important;
+        border-radius: 10px !important;
+        margin-bottom: 10px !important;
+        box-shadow: none !important;
+        background: #8843ad88 !important;
+    }
+    .porcem {
+        font-size: 21px !important;
+        line-height: 1 !important;
+    }
+    .subD {
+        font-size: 13px !important;
+    }
+    .description, .desc {
+        font-size: 12px !important;
+    }
+    .boxTeam {
+        padding: 10px !important;
+        width: 98% !important;
+        margin-bottom: 18px !important;
+        border-radius: 18px !important;
+    }
+    .boxTeam img {
+        width: 100px !important;
+        border-radius: 10px !important;
+    }
+    .name {
+        font-size: 18px !important;
+        margin: 8px 0 !important;
+    }
+    .boxCall {
+        padding: 15px 8px !important;
+        border-radius: 18px !important;
+        font-size: 13px !important;
+    }
+    .feature-box {
+        padding: 14px !important;
+        border-radius: 10px !important;
+        min-height: 100px !important;
+        margin-bottom: 16px !important;
+    }
+    .feature-box h3 {
+        font-size: 17px !important;
+        margin-bottom: 7px !important;
+    }
+    .feature-box p {
+        font-size: 13px !important;
+    }
+    .icon-box {
+        width: 38px !important;
+        height: 38px !important;
+        margin-bottom: 7px !important;
+    }
+    .icon-box i {
+        font-size: 18px !important;
+    }
+    .roadmap-section {
+        padding: 10px 0 0 0 !important;
+    }
     .timeline {
-        padding-left: 0;
+        padding-left: 0 !important;
+        max-width: 98vw !important;
     }
     .timeline::before {
-        left: 24px;
+        left: 16px !important;
+        width: 4px !important;
     }
     .timeline-item {
-        margin-bottom: 38px;
+        margin-bottom: 18px !important;
+        min-height: 60px !important;
     }
     .timeline-icon {
-        width: 32px;
-        height: 32px;
-        left: 4px;
-        font-size: 1.25rem;
+        width: 18px !important;
+        height: 18px !important;
+        left: 0 !important;
+        font-size: 0.85rem !important;
+        border-width: 2px !important;
     }
     .timeline-content {
-        padding: 18px 12px 18px 42px;
-        margin-left: 20px;
-        border-radius: 10px;
+        padding: 8px 7px 8px 24px !important;
+        margin-left: 12px !important;
+        border-radius: 8px !important;
+        font-size: 13px !important;
+        background: rgba(207, 58, 89, 0.11) !important;
     }
     .timeline-content h3 {
-        font-size: 18px;
+        font-size: 13px !important;
+        margin-bottom: 4px !important;
     }
     .timeline-content li {
-        font-size: 16px;
+        font-size: 12px !important;
+        margin-bottom: 2px !important;
+    }
+    /* Footer */
+    footer {
+        height: auto !important;
+        padding: 16px 0 0 0 !important;
+        background-size: contain !important;
+    }
+    .logoF {
+        padding-top: 36px !important;
+        padding-bottom: 12px !important;
+    }
+    .logoF img {
+        width: 58px !important;
+    }
+    .rocketman {
+        width: 58px !important;
+    }
+    /* Social e WP */
+    .social, .wp {
+        margin-top: 9px !important;
+        gap: 3px !important;
+        font-size: 16px !important;
+        padding: 3px 8px !important;
+        border-radius: 16px !important;
+        box-shadow: none !important;
     }
 }
