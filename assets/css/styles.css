@@ -1,40 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&family=Space+Grotesk:wght@400;600&family=Unbounded:wght@900&display=swap');
-
+ 
 body {
     background-image: url(../img/bg.jpg);
     font-family: 'Sora', sans-serif;
     font: 18px;
 }
-
+ 
 .w90 {
     width: 90%;
 }
-
+ 
 h1,
 h2,
 h3 {
     font-size: 58px;
     font-family: 'Unbounded', sans-serif;
 }
-
-
+ 
+ 
 h2 {
     font-size: 38px;
-
+ 
 }
-
+ 
 h3 {
     font-size: 28px;
-
+ 
 }
-
+ 
 h1 span {
     margin-top: -41px;
     display: block;
     color: #fff;
     font-size: 92px;
 }
-
+ 
 .banner {
     /* height: 100vh; */
     display: flex;
@@ -42,23 +42,23 @@ h1 span {
     justify-content: center;
     margin-top: 140px;
 }
-
+ 
 .banner p {
     font-size: 30px;
     color: #fff;
     font-weight: 700;
 }
-
+ 
 .verde {
     color: aqua;
 }
-
+ 
 .gif1 {
     position: absolute;
     right: 440px;
     margin-top: 90px;
 }
-
+ 
 .havefun {
     position: absolute;
     top: 100px;
@@ -66,60 +66,60 @@ h1 span {
     animation: have 10s linear infinite;
     mix-blend-mode: hard-light;
 }
-
+ 
 .filter {
     filter: blur(0px);
     transition: 5ms all linear;
     animation: filtro 1s linear infinite;
 }
-
+ 
 .filter:hover {
     filter: blur(3px);
     transition: 5ms all linear;
 }
-
+ 
 @keyframes filtro {
     0% {
         top: 230px;
-
+ 
     }
-
+ 
     100% {
         top: 250px;
-
+ 
     }
 }
-
+ 
 @keyframes have {
     0% {
         top: 230px;
         transform: rotate(0);
     }
-
+ 
     50% {
         top: 390px;
         transform: rotate(30deg);
     }
-
+ 
     100% {
         top: 230px;
         transform: rotate(0);
     }
 }
-
+ 
 .navbar-light .navbar-nav .nav-link {
     color: rgb(255 255 255);
     font-family: 'Unbounded', sans-serif;
     text-transform: uppercase;
     font-size: 16px;
 }
-
+ 
 .navbar-light .navbar-brand {
     color: rgba(255, 255, 255, 0.9);
     position: absolute;
     top: 0px;
 }
-
+ 
 .navv {
     background-color: #fe7694;
     border-radius: 120px;
@@ -130,39 +130,39 @@ h1 span {
     backdrop-filter: blur(2px);
     /* mix-blend-mode: exclusion; */
 }
-
+ 
 .navbar-brand img {
     width: 170px;
 }
-
+ 
 .zig {
     background-image: url(../img/zig.png);
     background-repeat: repeat-x;
     height: 46px;
 }
-
-
-
+ 
+ 
+ 
 .astronauta {
     position: absolute;
     top: 980px;
     right: 0;
     z-index: 10;
 }
-
+ 
 .astronauta img {
     width: 700px;
 }
-
-
+ 
+ 
 .paddinAbout {
     padding-top: 430px;
 }
-
+ 
 .about p {
     font-size: 20px;
 }
-
+ 
 .pushable {
     position: relative;
     background: transparent;
@@ -174,7 +174,7 @@ h1 span {
     transition: filter 250ms;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
+ 
 .shadow {
     position: absolute;
     top: 0;
@@ -188,7 +188,7 @@ h1 span {
     transform: translateY(2px);
     transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
 }
-
+ 
 .edge {
     position: absolute;
     top: 0;
@@ -202,7 +202,7 @@ h1 span {
             hsl(248, 39%, 39%) 92%,
             hsl(248, 39%, 29%) 100%);
 }
-
+ 
 .front {
     display: block;
     position: relative;
@@ -219,36 +219,36 @@ h1 span {
     transform: translateY(-4px);
     transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
 }
-
+ 
 .pushable:hover {
     filter: brightness(110%);
 }
-
+ 
 .pushable:hover .front {
     transform: translateY(-6px);
     transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
 }
-
+ 
 .pushable:active .front {
     transform: translateY(-2px);
     transition: transform 34ms;
 }
-
+ 
 .pushable:hover .shadow {
     transform: translateY(4px);
     transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
 }
-
+ 
 .pushable:active .shadow {
     transform: translateY(1px);
     transition: transform 34ms;
 }
-
+ 
 .pushable:focus:not(:focus-visible) {
     outline: none;
 }
-
-
+ 
+ 
 .front2 {
     display: block;
     position: relative;
@@ -264,45 +264,45 @@ h1 span {
     transform: translateY(-4px);
     transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
 }
-
-
+ 
+ 
 .pushable:hover {
     filter: brightness(110%);
 }
-
+ 
 .pushable:hover .front2 {
     transform: translateY(-6px);
     transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
 }
-
+ 
 .pushable:active .front2 {
     transform: translateY(-2px);
     transition: transform 34ms;
 }
-
+ 
 .pushable:hover .shadow {
     transform: translateY(4px);
     transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
 }
-
+ 
 .pushable:active .shadow {
     transform: translateY(1px);
     transition: transform 34ms;
 }
-
+ 
 .pushable:focus:not(:focus-visible) {
     outline: none;
 }
-
-
+ 
+ 
 .item img {
     border-radius: 20px;
 }
-
+ 
 .marginTop {
     margin-top: 200px;
 }
-
+ 
 .porcem {
     font-size: 42px;
     color: #0fc;
@@ -310,14 +310,14 @@ h1 span {
     font-family: 'Unbounded', sans-serif;
     line-height: 39px;
 }
-
+ 
 .description {
     font-size: 14px;
     color: #fff;
     font-weight: 900;
-
+ 
 }
-
+ 
 .box {
     display: flex;
     flex-direction: column;
@@ -334,83 +334,83 @@ h1 span {
     justify-content: center;
     border: solid 2px #49207f;
 }
-
+ 
 .imgSql {
     width: 210px;
     transform: revert;
 }
-
+ 
 .ddFlex {
     display: flex;
     justify-content: flex-end;
     /* align-content: center; */
     align-items: center;
-
+ 
 }
-
+ 
 .mt-5 {
     margin-top: 120px !important;
 }
-
+ 
 h3.phase {
-
+ 
     font-size: 22px;
     color: #ffcc00;
     margin-bottom: 15px;
-
+ 
 }
-
+ 
 .mt-6 {
     margin-top: 40px;
 }
-
+ 
 .accordion-button:not(.collapsed) {
     color: #ffffff;
     background-color: #49207f;
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
 }
-
+ 
 .accordion {
     margin-bottom: 10px;
 }
-
+ 
 .rocketman {
     position: absolute;
     width: 240px;
-
+ 
 }
-
+ 
 .rocketman {
     position: absolute;
-
+ 
     animation: rock 10s linear infinite;
-
+ 
 }
-
+ 
 @keyframes rock {
     0% {
         margin-top: 230px;
         transform: rotate(0);
         margin-left: 20px;
     }
-
+ 
     50% {
         margin-top: 390px;
         transform: rotate(30deg);
         margin-left: 200px;
     }
-
+ 
     100% {
         margin-top: 230px;
         transform: rotate(0);
         margin-left: 20px;
     }
 }
-
+ 
 .paddingPadrao {
     padding: 120px 0;
 }
-
+ 
 .boxTeam {
     display: flex;
     flex-direction: column;
@@ -420,24 +420,24 @@ h3.phase {
     padding: 20px;
     border-radius: 30px;
     box-shadow: 7px 12px 0 #49207f;
-
-
+ 
+ 
     text-align: center;
-
+ 
     justify-content: center;
     border: solid 2px #49207f;
 }
-
+ 
 .boxTeam img {
     border-radius: 30px;
     width: 260px;
-
+ 
 }
-
+ 
 .instagram {
     font-size: 42px;
 }
-
+ 
 .name {
     font-size: 32px;
     font-family: 'Unbounded', sans-serif;
@@ -445,33 +445,33 @@ h3.phase {
     margin: 10px 0;
     color: #0fc;
 }
-
+ 
 .cargo,
 .email {
     color: #fff;
 }
-
+ 
 .instagram i {
     color: #fff !important;
 }
-
+ 
 .boxCall {
     padding: 50px 40px;
     background-color: #49207f;
     border-radius: 40px;
     color: #fff;
 }
-
+ 
 .logoF {
     padding-top: 400px
 }
-
+ 
 .social {
     display: flex;
     font-size: 30px;
     gap: 10px;
 }
-
+ 
 .social i {
     background-color: #03A9F4;
     border-radius: 120px;
@@ -482,7 +482,7 @@ h3.phase {
     backdrop-filter: blur(2px);
     color: #ffffff;
 }
-
+ 
 .social i.la-twitter {
     background-color: #000000;
     border-radius: 120px;
@@ -493,7 +493,7 @@ h3.phase {
     backdrop-filter: blur(2px);
     color: #ffffff;
 }
-
+ 
 .wp {
     background-color: #b073ff;
     border-radius: 120px;
@@ -505,55 +505,72 @@ h3.phase {
     color: #ffffff;
     margin-left: 20px;
 }
-
+ 
 footer {
     background-image: url(../img/terra.png);
     background-position: top center;
     background-repeat: no-repeat;
     height: 74vh;
 }
-
+ 
 .escondeM {
     display: none;
 }
-
+ 
 .escondeD {
     display: block;
 }
-
+ 
 .divContract {
+    max-width: 320px;
+    margin: 24px auto 0 auto;
+    background: rgba(153, 50, 204, 0.35); /* Roxo mais sutil */
+    padding: 12px 12px 16px;
+    border-radius: 14px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15); /* sombra mais leve */
+    position: relative;
     display: flex;
-    gap: 10px;
-    background-color: #7017c3;
-    padding: 15px;
-    border-radius: 15px;
-    margin-top: 20px;
+    flex-direction: column;
     align-items: center;
+    gap: 6px;
+    transition: all 0.3s ease-in-out;
 }
 
 .contatroTitulo {
-    background-color: aquamarine;
-    padding: 20px;
-    border-radius: 10px;
-    font-weight: bold;
-    text-transform: uppercase;
+    width: 100%;
+    padding: 6px;
     font-size: 12px;
+    border-radius: 8px;
+    background: #a5fcd6; /* verde água mais suave */
+    color: #222;
+    text-align: center;
+    margin-bottom: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
 }
 
 .contrato {
-    font-size: 20px;
-    color: #fff;
-    background-color: #fe7694;
-    padding: 15px;
-    border-radius: 10px;
     width: 100%;
-    /* ADICIONE: */
-    word-break: break-all;
-    white-space: normal;
-    overflow-wrap: anywhere;
-    text-align: center; /* Opcional, para alinhar melhor */
+    padding: 6px 8px;
+    font-size: 12px;
+    border-radius: 8px;
+    background: rgba(234, 91, 191, 0.7); /* rosa mais translúcido */
+    color: #fff;
+    text-align: center;
+    word-break: break-word;
 }
 
+.gatoContrato img {
+    width: 120px;
+    opacity: 0.85;
+    transition: transform 0.3s ease;
+}
+
+.gatoContrato img:hover {
+    transform: scale(1.05);
+}
+ 
 @media (max-width:768px) {
     .divContract {
         display: flex;
@@ -565,7 +582,7 @@ footer {
         align-items: center;
         flex-direction: column;
     }
-
+ 
     .contrato {
         font-size: 69%;
         color: #fff;
@@ -573,7 +590,7 @@ footer {
         padding: 15px;
         border-radius: 10px;
     }
-
+ 
     .contatroTitulo {
         background-color: aquamarine;
         padding: 20px;
@@ -583,44 +600,44 @@ footer {
         font-size: 12px;
         width: 100%;
     }
-
+ 
     .escondeM {
         display: block;
     }
-
+ 
     .escondeD {
         display: none;
     }
-
+ 
     h1,
     h2,
     h3 {
         font-size: 32px;
         font-family: 'Unbounded', sans-serif;
     }
-
+ 
     h1 span {
         margin-top: -20px;
         display: block;
         color: #fff;
         font-size: 47px;
     }
-
+ 
     .astronauta {
         position: absolute;
         top: 1126px;
         right: 62px;
         z-index: 10;
     }
-
+ 
     .astronauta img {
         width: 270px;
     }
-
+ 
     .mt-5 {
         margin-top: -5px !important;
     }
-
+ 
     .ddFlex {
         display: flex;
         justify-content: flex-start;
@@ -628,7 +645,7 @@ footer {
         align-items: center;
         margin-top: 0px;
     }
-
+ 
     .boxTeam {
         display: flex;
         flex-direction: column;
@@ -643,38 +660,38 @@ footer {
         border: solid 2px #49207f;
         margin-bottom: 30px;
     }
-
+ 
     .boxTeam img {
         border-radius: 30px;
         width: 300px;
     }
-
+ 
     footer {
         background-image: url(../img/terra.png);
         background-position: top center;
         background-repeat: no-repeat;
         height: 62vh;
     }
-
+ 
     .rocketman {
         position: absolute;
         width: 170px;
     }
-
+ 
     .navbar-toggler {
         position: absolute;
         right: 0;
         top: 15px;
     }
-
+ 
     .navbar-brand img {
         width: 118px;
     }
-
+ 
     .margimTop {
         margin-top: 30px;
     }
-
+ 
     .navv {
         background-color: #c5c0ffe8;
         border-radius: 30px;
@@ -685,12 +702,12 @@ footer {
         backdrop-filter: blur(2px);
         /* mix-blend-mode: exclusion; */
     }
-
+ 
     .marginTop {
         margin-top: 90px;
     }
 }
-
+ 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
     position: absolute;
@@ -700,7 +717,7 @@ footer {
     min-height: 99%;
     z-index: -1;
 }
-
+ 
 /* Add some content at the bottom of the video/page */
 .content {
     position: fixed;
@@ -710,7 +727,7 @@ footer {
     width: 100%;
     padding: 20px;
 }
-
+ 
 /* Style the button used to pause/play the video */
 #myBtn {
     width: 200px;
@@ -721,23 +738,23 @@ footer {
     color: #fff;
     cursor: pointer;
 }
-
+ 
 #myBtn:hover {
     background: #ddd;
     color: black;
 }
-
+ 
 .mt-5 {
     margin-top: 70px !important;
 }
-
+ 
 .bannerPrincipal {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     height: 695px;
 }
-
+ 
 .nuvens {
     background-image: url(../img/funddo.png);
     background-repeat: no-repeat;
@@ -747,21 +764,12 @@ footer {
     z-index: -1;
     width: 100%;
 }
-
+ 
 .verde {
     color: #c53a59;
 }
 
-.divContract {
-    display: flex;
-    gap: 10px;
-    background-color: #ce28b4;
-    padding: 15px;
-    border-radius: 15px;
-    margin-top: 20px;
-    align-items: center;
-}
-
+ 
 .contrato {
     font-size: 20px;
     color: #fff;
@@ -770,7 +778,7 @@ footer {
     border-radius: 10px;
     width: 100%;
 }
-
+ 
 .contatroTitulo {
     background-color: #ae84e9;
     padding: 20px;
@@ -781,7 +789,7 @@ footer {
     color: #fff;
     cursor: pointer;
 }
-
+ 
 .about {
     min-height: 320px;  /* Aumente esse valor até caber a imagem toda! */
     height: auto;
@@ -798,7 +806,7 @@ footer {
     position: relative;
     overflow: hidden;
 }
-
+ 
 .feature-box {
     background: rgba(255, 255, 255, 0.1);
     padding: 30px;
@@ -807,11 +815,11 @@ footer {
     transition: transform 0.3s ease;
     backdrop-filter: blur(5px);
 }
-
+ 
 .feature-box:hover {
     transform: translateY(-5px);
 }
-
+ 
 .icon-box {
     width: 80px;
     height: 80px;
@@ -822,28 +830,28 @@ footer {
     justify-content: center;
     margin: 0 auto 20px;
 }
-
+ 
 .icon-box i {
     font-size: 32px;
     color: #fff;
 }
-
+ 
 .feature-box h3 {
     margin-bottom: 15px;
     font-size: 24px;
 }
-
+ 
 .feature-box p {
     font-size: 16px;
     line-height: 1.6;
 }
 /* ... todo seu CSS acima, sem mexer em nada ... */
-
+ 
 /* ===========================================
    RESPONSIVIDADE VÍDEO/GIF NO MOBILE (somente)
    =========================================== */
    /* ... todo seu CSS acima, sem mexer em nada ... */
-
+ 
 /* ===========================================
    RESPONSIVIDADE VÍDEO/GIF NO MOBILE (somente)
    =========================================== */
@@ -863,7 +871,7 @@ footer {
         margin-top: 20px !important;
         padding-bottom: 0 !important;
     }
-
+ 
     /* Ajusta o vídeo/banner */
     .banner .video {
         width: 92vw !important;
@@ -887,7 +895,7 @@ footer {
         border-radius: 18px !important;
         background: transparent !important;
     }
-
+ 
     /* Coloca o texto de boas-vindas logo abaixo do vídeo */
     .bannerPrincipal {
         justify-content: flex-start !important;
@@ -907,7 +915,7 @@ footer {
         margin-bottom: 0 !important;
         text-align: center !important;
     }
-
+ 
     /* "HAVE FUN" centralizado embaixo do texto */
     .havefun {
         display: block !important;
@@ -921,7 +929,7 @@ footer {
         left: unset !important;
         top: unset !important;
     }
-
+ 
     /* Remove banner de desktop no mobile */
     .banner img.escondeD {
         display: none !important;
@@ -930,7 +938,7 @@ footer {
         display: block !important;
         margin: 0 auto;
     }
-
+ 
     /* Remove espaço extra abaixo da banner */
     .banner + .container,
     .banner + section,
@@ -938,7 +946,7 @@ footer {
         margin-top: 0 !important;
         padding-top: 0 !important;
     }
-
+ 
     /* Remove espaço do .mt-5 na seção do banner (ajuste se necessário) */
     .mt-5 {
         margin-top: 0 !important;
@@ -954,7 +962,7 @@ footer {
 .astronauta img {
     width: 700px;
 }
-
+ 
 /* Esconde o gato grande no mobile, mostra só no desktop */
 @media (max-width: 800px) {
     .astronauta {
@@ -976,14 +984,9 @@ footer {
         display: block;
     }
 }
+ 
 
-/* Desktop: esconde o gato pequeno */
-@media (min-width: 801px) {
-    .gatoContrato {
-        display: none !important;
-    }
-}
-
+ 
 /* .divContract precisa ser relative para o gato ficar no lugar certo */
 .divContract {
     position: relative !important;
@@ -1058,7 +1061,7 @@ footer {
     opacity: .85;
     list-style: disc;
 }
-
+ 
 @media (max-width: 700px) {
     body {
         font-size: 15px !important;
@@ -1272,3 +1275,286 @@ footer {
         box-shadow: none !important;
     }
 }
+.roadmap-trail {
+    position: relative;
+    margin: 70px 0 30px 0;
+    min-height: 540px;
+  }
+  
+  .roadmap-trail::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: repeating-linear-gradient(
+      to bottom,
+      #ffcc00 0 14px,
+      transparent 14px 28px
+    );
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  
+  .trail-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 70px;
+    min-height: 120px;
+  }
+  
+  .trail-item.left {
+    justify-content: flex-start;
+  }
+  
+  .trail-item.right {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+  
+  .trail-card {
+    background: rgba(207,58,89,0.17);
+    color: #fff;
+    padding: 24px 34px 18px 24px;
+    border-radius: 18px;
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.12);
+    max-width: 370px;
+    min-width: 250px;
+    z-index: 2;
+    margin: 0 32px 0 0;
+    transition: box-shadow 0.2s;
+  }
+  
+  .trail-item.right .trail-card {
+    margin: 0 0 0 32px;
+  }
+  
+  .trail-card h3 {
+    color: #ffcc00;
+    font-family: 'Unbounded', sans-serif;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.28rem;
+  }
+  .trail-card ul {
+    padding-left: 20px;
+    margin: 0;
+  }
+  .trail-card li {
+    font-size: 1rem;
+    margin-bottom: 7px;
+    opacity: .9;
+  }
+  
+  .trail-dot {
+    position: relative;
+    z-index: 3;
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
+    border-radius: 50%;
+    background: #fff;
+    border: 5px solid #ae84e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #c53a59;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.10);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .trail-item.left .trail-dot,
+  .trail-item.right .trail-dot {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Responsivo */
+  @media (max-width: 900px) {
+    .roadmap-trail {
+      margin: 30px 0 10px 0;
+    }
+    .roadmap-trail::before {
+      left: 20px;
+      width: 3px;
+      transform: none;
+    }
+    .trail-item,
+    .trail-item.right {
+      flex-direction: row !important;
+      justify-content: flex-start !important;
+      margin-bottom: 38px;
+    }
+    .trail-dot {
+      left: 0;
+      transform: none;
+      margin-right: 12px;
+      width: 30px;
+      height: 30px;
+      min-width: 30px;
+      min-height: 30px;
+      font-size: 1.05rem;
+    }
+    .trail-card {
+      margin: 0 0 0 10px !important;
+      max-width: 96vw;
+      min-width: 0;
+      padding: 11px 7px 10px 10px;
+      font-size: 13px;
+    }
+  }
+  
+  /* Deixa o texto centralizado na bolinha, sempre */
+  .trail-dot span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+  }
+  .roadmap-zigzag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0 60px 0;
+    position: relative;
+  }
+  
+  .roadmap-row {
+    display: grid;
+    grid-template-columns: 1fr 60px 1fr;
+    align-items: center;
+    margin-bottom: 0px;
+    min-height: 160px;
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+  }
+  
+  .roadmap-card {
+    background: rgba(207,58,89,0.17);
+    color: #fff;
+    padding: 22px 32px 16px 26px;
+    border-radius: 16px;
+    min-height: 120px;
+    min-width: 230px;
+    max-width: 340px;
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.10);
+    z-index: 2;
+    font-family: 'Sora', sans-serif;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .roadmap-card:not(.left):not(.right) {
+    background: none;
+    box-shadow: none;
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+  }
+  .roadmap-card.right:empty,
+  .roadmap-card.left:empty {
+    background: none;
+    box-shadow: none;
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+  }
+  
+  .roadmap-card h3 {
+    color: #ffcc00;
+    margin: 0 0 10px 0;
+    font-size: 1.3rem;
+    font-family: 'Unbounded', sans-serif;
+  }
+  .roadmap-card ul {
+    padding-left: 20px;
+    margin: 0;
+  }
+  .roadmap-card li {
+    font-size: 1rem;
+    margin-bottom: 7px;
+    opacity: .92;
+  }
+  
+  .roadmap-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    position: relative;
+  }
+  
+  .roadmap-dot {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #fff;
+    border: 4px solid #ae84e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: #c53a59;
+    z-index: 4;
+    margin: 0 0 0 0;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.11);
+  }
+  .roadmap-line {
+    width: 6px;
+    flex: 1;
+    min-height: 65px;
+    background: repeating-linear-gradient(
+      to bottom,
+      #ffcc00 0 14px,
+      transparent 14px 26px
+    );
+    margin: 0 auto;
+    border-radius: 6px;
+  }
+  
+  .roadmap-row:last-child .roadmap-line {
+    display: none;
+  }
+  
+  /* Responsivo para mobile */
+  @media (max-width: 900px) {
+    .roadmap-zigzag { margin: 35px 0 15px 0; }
+    .roadmap-row {
+      grid-template-columns: 18px auto 1fr;
+      min-height: 100px;
+      max-width: 98vw;
+    }
+    .roadmap-card {
+      font-size: 0.97rem;
+      min-width: 0;
+      max-width: 92vw;
+      padding: 10px 10px 8px 8px;
+    }
+    .roadmap-center {
+      width: 18px;
+    }
+    .roadmap-dot {
+      width: 22px;
+      height: 22px;
+      font-size: 1.08rem;
+      border-width: 2px;
+    }
+    .roadmap-line {
+      width: 3.3px;
+      min-height: 38px;
+    }
+  }
+  
+  /* Deixa o roadmap bem centralizado na tela grande */
+  @media (min-width:1200px) {
+    .roadmap-zigzag { max-width: 1100px; margin: 100px auto 80px auto; }
+  }
