@@ -55,6 +55,9 @@
                     <li class="nav-item"><a class="nav-link" href="#tokenomics">Tokenomics</a></li>
                     <li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li>
                     <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item">
+    <a class="nav-link" href="https://whitepaper-chi.gitbook.io/docs" target="_blank">Whitepaper</a>
+</li>
                 </ul>
  
  
@@ -105,7 +108,7 @@
                     <img src="./assets/img/havefun.png" class="img-fluid havefun " alt="" srcset="">
  
                     <img src="./assets/img/banner.png" class="img-fluid escondeM escondeD" alt="" srcset="">
-                    <img src="./assets/img/banner2.png" class="img-fluid escondeM " alt="" srcset="">
+                  
  
                 </div>
             </div>
@@ -120,15 +123,15 @@
     <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8 text-center">
-        <div class="divContract">
-  <div class="contratoCard">
-    <div class="contratoTextos">
-      <div class="contatroTitulo" onclick="copyContract()">Contract</div>
-      <div class="contrato" id="contractAddress" onclick="copyContract()">3Q4MDXVqPoWp4ky8GqfYpjZncybPuRWmpw3imdEs7VfT</div>
-    </div>
-    <div class="gatoContrato">
-      <img src="./assets/img/astronauta.png" alt="">
-    </div>
+        <div class="divContract novaContract">
+  <div class="contractLabel">
+    <span>Contract Address</span>
+    <button class="copyBtn" onclick="copyContract()" title="Copiar">
+      <i class="las la-copy"></i>
+    </button>
+  </div>
+  <div class="contractAddress" id="contractAddress" onclick="copyContract()">
+    3Q4MDXVqPoWp4ky8GqfYpjZncybPuRWmpw3imdEs7VfT
   </div>
 </div>
 <div id="toastCopied" class="toast-copied">
@@ -218,6 +221,64 @@ function showToastCopied() {
             </div>
         </div>
  
+
+        <!-- TAPE GAME SECTION -->
+<section class="mt-5" id="tapgame">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-4">
+        <h2 style="color:#fff">Tap Game</h2>
+        <p style="color:#fff">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Praesent nec eros euismod, accumsan mauris ac, blandit velit.
+        </p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-6 col-md-3 mb-3">
+        <img src="./assets/img/game1.jpg" class="img-fluid rounded" alt="Tap Game 1">
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <img src="./assets/img/game2.png" class="img-fluid rounded" alt="Tap Game 2">
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <img src="./assets/img/game3.png" class="img-fluid rounded" alt="Tap Game 3">
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <img src="./assets/img/game4.png" class="img-fluid rounded" alt="Tap Game 4">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- IDLE GAMING SECTION -->
+<section class="mt-5" id="idlegaming">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-4">
+        <h2 style="color:#fff">Idle Gaming</h2>
+        <p style="color:#fff">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in ex mattis, egestas nunc vel, faucibus nisi. Pellentesque euismod.
+        </p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-6 col-md-3 mb-3">
+        <img src="./assets/img/idle1.png" class="img-fluid rounded" alt="Idle Gaming 1">
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <img src="./assets/img/idle2.png" class="img-fluid rounded" alt="Idle Gaming 2">
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <img src="./assets/img/idle3.png" class="img-fluid rounded" alt="Idle Gaming 3">
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <img src="./assets/img/idle4.png" class="img-fluid rounded" alt="Idle Gaming 4">
+      </div>
+    </div>
+  </div>
+</section>
+
+
         <div class="container text-center marginTop">
             <div class="row">
                 <div class="col-md-2"></div>
@@ -233,14 +294,19 @@ function showToastCopied() {
                     </p>
                 </div>
                 <div class="owl-carousel owl-theme">
- 
- 
-                    <div class="item">
-                        <img src="./assets/img/179-1792894_chii-cat-png-chi-the-cat-png.png" alt="">
-                    </div>
- 
-                </div>
- 
+    <div class="item">
+        <img src="./assets/img/nft1.png" alt="NFT 1">
+    </div>
+    <div class="item">
+        <img src="./assets/img/nft2.png" alt="NFT 2">
+    </div>
+    <div class="item">
+        <img src="./assets/img/nft3.png" alt="NFT 3">
+    </div>
+    <div class="item">
+        <img src="./assets/img/nft4.png" alt="NFT 4">
+    </div>
+</div>
                 <div class="mt-5">
                     <a href="https://whitepaper-chi.gitbook.io/docs" target="_blank">
                         <button class="pushable">
@@ -270,15 +336,14 @@ function showToastCopied() {
     </section>
     <div id="tokenomics"></div>
     <section class="Tokenomics">
-        <div class="container">
-            <div class="row ddFlex">
-                <div class="col-6">
-                    <h2 style="color: #fff;">Tokenomics</h2>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 style="color: #fff;">Tokenomics</h2>
+            </div>
+            <!-- ...restante... -->
  
-                <div class="col-md-6 text-end">
-                    <img src="./assets/img/squii.png" class="imgSql" alt="" srcset="">
-                </div>
+             
  
                 <div class="col-md-12">
                     <div class="box">
