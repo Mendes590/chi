@@ -250,7 +250,7 @@ function showToastCopied() {
   </div>
 </section>
 
-<!-- IDLE GAMING SECTION teste-->
+<!-- IDLE GAMING SECTION -->
 <section class="mt-5" id="idlegaming">
   <div class="container">
     <div class="row">
